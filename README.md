@@ -1,9 +1,9 @@
 # Modelo  SARIMA para estimar la evolucion de los precios de las principales materias primas que exporta el Perú (2000-2026) 
 
-**Autor:** Angel Marchán Collazos – Universidad Nacional Mayor de San Marcos (UNMSM)
+**Autor:** Angel Marchán Collazos 
 **Fecha:** 25 de octubre de 2026
 
-Modelo econométrico de series de tiempo (metodología Box-Jenkins) para los precios **mensuales** de 9 materias primas de
+Modelo econométrico de series de tiempo (metodología Box-Jenkins) para estimar los precios **mensuales** de 9 materias primas de
 exportación peruana: cobre, oro, zinc, plata, plomo, estaño, mineral de hierro, harina de pescado y café arábica.
 Muestra: enero 2000 – octubre 2026 (322 meses). Proyección: noviembre 2026 – diciembre 2027.
 
