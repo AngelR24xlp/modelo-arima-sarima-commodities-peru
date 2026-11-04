@@ -1,0 +1,38 @@
+{
+  "Cobre": {
+    "modelo": "ARIMA(1, 1, 0)",
+    "familia": "ARIMA"
+  },
+  "Oro": {
+    "modelo": "ARIMA(0, 1, 1) con deriva",
+    "familia": "ARIMA"
+  },
+  "Zinc": {
+    "modelo": "ARIMA(1, 1, 0)",
+    "familia": "ARIMA"
+  },
+  "Plata": {
+    "modelo": "ARIMA(3, 1, 2) con deriva",
+    "familia": "ARIMA"
+  },
+  "Plomo": {
+    "modelo": "ARIMA(1, 1, 0)",
+    "familia": "ARIMA"
+  },
+  "Estaño": {
+    "modelo": "ARIMA(2, 1, 0)",
+    "familia": "ARIMA"
+  },
+  "Hierro": {
+    "modelo": "ARIMA(0, 1, 1)",
+    "familia": "ARIMA"
+  },
+  "Harina de pescado": {
+    "modelo": "ARIMA(0, 1, 2) con deriva",
+    "familia": "ARIMA"
+  },
+  "Café arábica": {
+    "modelo": "ARIMA(1, 1, 0)",
+    "familia": "ARIMA"
+  }
+}

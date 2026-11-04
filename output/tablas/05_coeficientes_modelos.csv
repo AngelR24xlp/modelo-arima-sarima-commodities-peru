@@ -1,0 +1,28 @@
+﻿Producto,Modelo,Parámetro,Coeficiente,Error estándar,z,p-valor
+Cobre,"ARIMA(1, 1, 0)",ar.L1,0.3996,0.0308,12.9740,0.0000
+Cobre,"ARIMA(1, 1, 0)",sigma2,0.0031,0.0001,21.4643,0.0000
+Oro,"ARIMA(0, 1, 1) con deriva",deriva (intercept),0.0083,0.0025,3.3473,0.0008
+Oro,"ARIMA(0, 1, 1) con deriva",ma.L1,0.2110,0.0505,4.1785,0.0000
+Oro,"ARIMA(0, 1, 1) con deriva",sigma2,0.0013,0.0001,14.3539,0.0000
+Zinc,"ARIMA(1, 1, 0)",ar.L1,0.2580,0.0498,5.1835,0.0000
+Zinc,"ARIMA(1, 1, 0)",sigma2,0.0038,0.0002,17.3271,0.0000
+Plata,"ARIMA(3, 1, 2) con deriva",deriva (intercept),0.0121,0.0093,1.3015,0.1931
+Plata,"ARIMA(3, 1, 2) con deriva",ar.L1,-0.0189,0.0702,-0.2690,0.7879
+Plata,"ARIMA(3, 1, 2) con deriva",ar.L2,-0.8650,0.0481,-17.9709,0.0000
+Plata,"ARIMA(3, 1, 2) con deriva",ar.L3,0.2667,0.0481,5.5428,0.0000
+Plata,"ARIMA(3, 1, 2) con deriva",ma.L1,0.2834,0.0678,4.1824,0.0000
+Plata,"ARIMA(3, 1, 2) con deriva",ma.L2,0.8476,0.0703,12.0622,0.0000
+Plata,"ARIMA(3, 1, 2) con deriva",sigma2,0.0045,0.0003,15.9065,0.0000
+Plomo,"ARIMA(1, 1, 0)",ar.L1,0.2213,0.0357,6.1919,0.0000
+Plomo,"ARIMA(1, 1, 0)",sigma2,0.0041,0.0002,18.4102,0.0000
+Estaño,"ARIMA(2, 1, 0)",ar.L1,0.3257,0.0490,6.6425,0.0000
+Estaño,"ARIMA(2, 1, 0)",ar.L2,0.0843,0.0441,1.9107,0.0560
+Estaño,"ARIMA(2, 1, 0)",sigma2,0.0036,0.0003,13.8589,0.0000
+Hierro,"ARIMA(0, 1, 1)",ma.L1,0.2914,0.0385,7.5625,0.0000
+Hierro,"ARIMA(0, 1, 1)",sigma2,0.0076,0.0003,24.8585,0.0000
+Harina de pescado,"ARIMA(0, 1, 2) con deriva",deriva (intercept),0.0058,0.0039,1.4800,0.1389
+Harina de pescado,"ARIMA(0, 1, 2) con deriva",ma.L1,0.2295,0.0380,6.0415,0.0000
+Harina de pescado,"ARIMA(0, 1, 2) con deriva",ma.L2,-0.1190,0.0715,-1.6639,0.0961
+Harina de pescado,"ARIMA(0, 1, 2) con deriva",sigma2,0.0020,0.0001,28.8439,0.0000
+Café arábica,"ARIMA(1, 1, 0)",ar.L1,0.1759,0.0490,3.5892,0.0003
+Café arábica,"ARIMA(1, 1, 0)",sigma2,0.0035,0.0002,14.6448,0.0000
