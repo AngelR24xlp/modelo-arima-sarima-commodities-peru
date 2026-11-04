@@ -1,7 +1,7 @@
-# Modelo ARIMA / SARIMA de los precios de las principales materias primas que exporta el Perú (2000-2026) y proyección 2027
+# Modelo  SARIMA para estimar la evolucion de los precios de las principales materias primas que exporta el Perú (2000-2026) 
 
 **Autor:** Angel Marchán Collazos – Universidad Nacional Mayor de San Marcos (UNMSM)
-**Fecha:** 4 de noviembre de 2026
+**Fecha:** 25 de octubre de 2026
 
 Modelo econométrico de series de tiempo (metodología Box-Jenkins) para los precios **mensuales** de 9 materias primas de
 exportación peruana: cobre, oro, zinc, plata, plomo, estaño, mineral de hierro, harina de pescado y café arábica.
@@ -88,23 +88,12 @@ Muestra: enero 2000 – octubre 2026 (322 meses). Proyección: noviembre 2026 �
 ![Pronósticos](output/figuras/03_panel_pronosticos_2027.png)
 ![Variación](output/figuras/04_variacion_2027_vs_2026.png)
 
-**Interpretación de la proyección:** el pronóstico ARIMA de una serie I(1) converge al último nivel observado (más la deriva, si existe).
+El pronóstico ARIMA de una serie I(1) converge al último nivel observado (más la deriva, si existe).
 Por ello, la variación 2027/2026 refleja sobre todo el *efecto arrastre*: cobre, zinc y harina de pescado cerraron 2026 por encima de su
 promedio anual (alzas en 2027), mientras plata y hierro cerraron por debajo (caídas). Los intervalos de 95% son amplios
 (p. ej., cobre a dic-2027 entre ~US$ 7,500 y ~US$ 28,000/tm), lo que refleja la elevada incertidumbre de estos mercados.
 
-## Estructura del repositorio
-```
-main.py                  # Ejecuta todo el análisis (datos -> modelos -> gráficos -> tablas -> informe Word)
-src/datos.py             # Descarga/lectura del Pink Sheet y limpieza
-src/modelo.py            # Pruebas, selección ARIMA/SARIMA, diagnóstico, validación y pronóstico
-src/graficos.py          # Figuras
-src/reporte.py           # Informe .docx con interpretación
-data/raw, data/processed # Datos
-output/figuras           # 41 gráficos (series, FAS/FAP, STL, diagnóstico y pronóstico por producto)
-output/tablas            # Tablas CSV + Excel + resumen de los modelos (statsmodels summary)
-docs/                    # Informe en Word
-```
+
 
 ## Cómo ejecutar
 ```bash
